@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Myprofile from '../../assets/img/profile/myprofile.JPG';
 import Button from 'react-bootstrap/Button';
+import Zoom from 'react-reveal/Zoom';
 
 import './about.style.css';
 
@@ -17,12 +18,15 @@ const About = () => {
         <Row className="pt-3 pb-5 align-items-center">
           {/* Profile picture */}
           <Col xs={12} md={6}>
+          <Zoom left>
             <Row className="justify-content-center mb-2 mr-2 ">
               <Image className="justify-content-end profile" alt="profile" src={Myprofile} thumbnail fluid />
             </Row>
+          </Zoom>
           </Col>
           {/* About ME Description */}
           <Col xs={12} md={6}>
+          <Zoom right>
             <Row className=" align-items-start p-2 my-details rounded">
             {/** Description */}
             Hi there! I am <strong>&nbsp; Duc Ngo </strong> 
@@ -30,7 +34,8 @@ const About = () => {
             <br />
             <br /> I graduated Business Information Technology at LapLand University Of Applied Sciences in 2020. I have learned valuable professional skills such as web application development, data management, and web design.
             <br />
-            <br /> Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+            <br /> Furthermore, I studied E-Business, Project management, Data warehouse, IT Security, and ERP with SAP tool in Frankfurt University Of Applied Sciences , Germany. In both my academic and professional life, I have been consistently praised as hard-working by my professors and peers.
+            <br />
             <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
             <br /> <br />
             {/** Buttom */}
@@ -63,8 +68,9 @@ const About = () => {
                       </Button>
                     </a>
                   </div>
-            </Col>
+                </Col>
             </Row>
+          </Zoom>
           </Col>
         </Row>
       </Container>
