@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/My-Portforlio-v2/static/css/main.4304318a.chunk.css",
-    "main.js": "/My-Portforlio-v2/static/js/main.dd5bee81.chunk.js",
-    "main.js.map": "/My-Portforlio-v2/static/js/main.dd5bee81.chunk.js.map",
+    "main.css": "/My-Portforlio-v2/static/css/main.81cc730d.chunk.css",
+    "main.js": "/My-Portforlio-v2/static/js/main.0e9bff20.chunk.js",
+    "main.js.map": "/My-Portforlio-v2/static/js/main.0e9bff20.chunk.js.map",
     "runtime-main.js": "/My-Portforlio-v2/static/js/runtime-main.b265631b.js",
     "runtime-main.js.map": "/My-Portforlio-v2/static/js/runtime-main.b265631b.js.map",
-    "static/js/2.bda4375d.chunk.js": "/My-Portforlio-v2/static/js/2.bda4375d.chunk.js",
-    "static/js/2.bda4375d.chunk.js.map": "/My-Portforlio-v2/static/js/2.bda4375d.chunk.js.map",
+    "static/js/2.ad9e82eb.chunk.js": "/My-Portforlio-v2/static/js/2.ad9e82eb.chunk.js",
+    "static/js/2.ad9e82eb.chunk.js.map": "/My-Portforlio-v2/static/js/2.ad9e82eb.chunk.js.map",
     "index.html": "/My-Portforlio-v2/index.html",
-    "precache-manifest.3e18a1f9217a895205324fc210433b08.js": "/My-Portforlio-v2/precache-manifest.3e18a1f9217a895205324fc210433b08.js",
+    "precache-manifest.7c7140ffa532ae52d5bafef5c5529c90.js": "/My-Portforlio-v2/precache-manifest.7c7140ffa532ae52d5bafef5c5529c90.js",
     "service-worker.js": "/My-Portforlio-v2/service-worker.js",
-    "static/css/main.4304318a.chunk.css.map": "/My-Portforlio-v2/static/css/main.4304318a.chunk.css.map",
-    "static/js/2.bda4375d.chunk.js.LICENSE.txt": "/My-Portforlio-v2/static/js/2.bda4375d.chunk.js.LICENSE.txt",
+    "static/css/main.81cc730d.chunk.css.map": "/My-Portforlio-v2/static/css/main.81cc730d.chunk.css.map",
+    "static/js/2.ad9e82eb.chunk.js.LICENSE.txt": "/My-Portforlio-v2/static/js/2.ad9e82eb.chunk.js.LICENSE.txt",
+    "static/media/Mayvary.png": "/My-Portforlio-v2/static/media/Mayvary.933989a3.png",
     "static/media/TODOLIST.png": "/My-Portforlio-v2/static/media/TODOLIST.10746b6a.png",
-    "static/media/background.webp": "/My-Portforlio-v2/static/media/background.bf989778.webp",
     "static/media/contactForm.style.css": "/My-Portforlio-v2/static/media/background.e95d0563.webp",
     "static/media/bootstrap-4.svg": "/My-Portforlio-v2/static/media/bootstrap-4.ffded238.svg",
     "static/media/css3-icon.png": "/My-Portforlio-v2/static/media/css3-icon.c3ce0c15.png",
+    "static/media/data1.png": "/My-Portforlio-v2/static/media/data1.c90f249d.png",
     "static/media/express.svg": "/My-Portforlio-v2/static/media/express.c6bab64b.svg",
     "static/media/git-icon.svg": "/My-Portforlio-v2/static/media/git-icon.1190a19c.svg",
     "static/media/github.svg": "/My-Portforlio-v2/static/media/github.0ff1a6f0.svg",
@@ -27,9 +28,9 @@
     "static/media/mayvarylogo.png": "/My-Portforlio-v2/static/media/mayvarylogo.589bd369.png",
     "static/media/mongodb.svg": "/My-Portforlio-v2/static/media/mongodb.2985235d.svg",
     "static/media/myportfoliov1.png": "/My-Portforlio-v2/static/media/myportfoliov1.8e45dd15.png",
-    "static/media/myprofile.JPG": "/My-Portforlio-v2/static/media/myprofile.936d309b.JPG",
     "static/media/nodejs.svg": "/My-Portforlio-v2/static/media/nodejs.a1231528.svg",
     "static/media/php.png": "/My-Portforlio-v2/static/media/php.a841fe94.png",
+    "static/media/profilepic.png": "/My-Portforlio-v2/static/media/profilepic.24e4a836.png",
     "static/media/python.svg": "/My-Portforlio-v2/static/media/python.146716bd.svg",
     "static/media/react-bootstrap.svg": "/My-Portforlio-v2/static/media/react-bootstrap.83fe61b0.svg",
     "static/media/react-router.svg": "/My-Portforlio-v2/static/media/react-router.02419671.svg",
@@ -38,12 +39,13 @@
     "static/media/reviewmovie.png": "/My-Portforlio-v2/static/media/reviewmovie.4b50e956.png",
     "static/media/slide1.webp": "/My-Portforlio-v2/static/media/slide1.8bce7aef.webp",
     "static/media/slide2.webp": "/My-Portforlio-v2/static/media/slide2.7256f309.webp",
-    "static/media/slide3.webp": "/My-Portforlio-v2/static/media/slide3.8e5b87b6.webp"
+    "static/media/slide3.webp": "/My-Portforlio-v2/static/media/slide3.8e5b87b6.webp",
+    "static/media/wordpress-icon.png": "/My-Portforlio-v2/static/media/wordpress-icon.f4be0cc0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b265631b.js",
-    "static/js/2.bda4375d.chunk.js",
-    "static/css/main.4304318a.chunk.css",
-    "static/js/main.dd5bee81.chunk.js"
+    "static/js/2.ad9e82eb.chunk.js",
+    "static/css/main.81cc730d.chunk.css",
+    "static/js/main.0e9bff20.chunk.js"
   ]
 }
