@@ -9,7 +9,9 @@ import TitleMessage from './components/titleMessage/titlemessage.component';
 import About from './pages/about/about.component';
 import Skills from './pages/skills/skills.component';
 import Experiences from './pages/experiences/experiences.component';
+import ProjectTimeline from './components/projectTimeline/projectTimeline.component';
 import './App.css';
+
 
 const App = () => {
   return (
@@ -43,7 +45,7 @@ const App = () => {
           </Fade>
         </Container>
       </div>
-      
+      {/** Experiences Section */}
       <div>
       <Container className="container-box rounded">
           <Slide bottom  duration={500}>
@@ -52,6 +54,16 @@ const App = () => {
           </Slide>
         </Container>
       </div>
+      {/** Projects Section */}
+      <div>
+        <Container className="container-box rounded">
+          <Fade  duration={500}>
+          <hr />
+            <ProjectTimeline />
+          </Fade>
+        </Container>
+      </div>
+      
     </div>
   );
 }

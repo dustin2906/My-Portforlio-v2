@@ -33,7 +33,7 @@ const Experiences = () => {
                       <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
                       <li><strong>Designing, coding, and modifying websites</strong>  in Wordpress. Strive to create visually appealing websites with user-friendly design and clear navigation.
                       </li>
-                      <li><strong>Learn and support</strong>marketing campaigns in adapting new content to fit existing and new digital channels. 
+                      <li><strong>Learn and support </strong> marketing campaigns in adapting new content to fit existing and new digital channels. 
                       </li>
                     </ul>                   
                   </Card.Text>
