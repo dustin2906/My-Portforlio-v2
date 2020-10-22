@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Myprofile from '../../assets/img/profile/myprofile.JPG';
+import Myprofile from '../../assets/img/profile/profilepic.png';
 import Button from 'react-bootstrap/Button';
 import Zoom from 'react-reveal/Zoom';
 
@@ -19,7 +19,7 @@ const About = () => {
           {/* Profile picture */}
           <Col xs={12} md={6}>
           <Zoom left>
-            <Row className="justify-content-center mb-2 mr-2 ">
+            <Row className="justify-content-center mb-2 mr-3 ">
               <Image className="justify-content-end profile" alt="profile" src={Myprofile} thumbnail fluid />
             </Row>
           </Zoom>
@@ -29,15 +29,21 @@ const About = () => {
           <Zoom right>
             <Row className=" align-items-start p-2 my-details rounded">
             {/** Description */}
-            Hi there! I am <strong>&nbsp; Duc Ngo </strong> 
-            <br />A passionate programmer and a learner, born and grow up in VietNam. At present, I am a web developer with ReactJS, Redux, ExpressJS, NodeJS, Bootstrap and WordPress  in Helsinki, Finland.
+            <p>Hi there!
+            </p>
+            <p>
+            I am <strong>&nbsp;Duc Ngo </strong>, a passionate programmer and a learner, born and grow up in VietNam. At present, I am a web developer with ReactJS, Redux, ExpressJS, NodeJS, Bootstrap and WordPress  in Helsinki, Finland.
             <br />
-            <br /> I graduated Business Information Technology at LapLand University Of Applied Sciences in 2020. I have learned valuable professional skills such as web application development, data management, and web design.
-            <br />
-            <br /> Furthermore, I studied E-Business, Project management, Data warehouse, IT Security, and ERP with SAP tool in Frankfurt University Of Applied Sciences , Germany. In both my academic and professional life, I have been consistently praised as hard-working by my professors and peers.
-            <br />
-            <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-            <br /> <br />
+            </p>
+            <p>
+            I graduated Business Information Technology at LapLand University Of Applied Sciences in Finland, 2020. I have learned valuable professional skills such as web application development, data management, and web design.
+            </p>
+            <p>
+            On the other hand, I studied E-Business, Project management, Data warehouse, IT Security, and ERP with SAP tool in Frankfurt University Of Applied Sciences , Germany. In both my academic and professional life, I have been consistently praised as hard-working by my professors and peers.
+            </p>
+            <p>
+            I love learning about new technologies, what problems are they solving and how can I use them to build better and scalable products.
+            </p>
             {/** Buttom */}
             <Col className="d-flex justify-content-center flex-wrap">
               <div>

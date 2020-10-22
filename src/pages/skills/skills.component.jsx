@@ -4,6 +4,8 @@ import CardDeck from 'react-bootstrap/CardDeck';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Roll from 'react-reveal/Roll';
 
 import {skills} from './skillData';
 import './skill.style.css';
@@ -20,6 +22,7 @@ const Skills = () => {
               <Card className="focus mt-2 mb-2">
                 <Card.Body>
                   {/* Frontend */}
+                  <LightSpeed left>
                   <Card.Title className="text-center  card-title">Frontend</Card.Title>
                   <hr />
                   <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -31,6 +34,7 @@ const Skills = () => {
                         </span>
                       ))}
                   </Card.Text>
+                  </LightSpeed>
                 </Card.Body>
               </Card>
             </Col>
@@ -39,6 +43,7 @@ const Skills = () => {
             {/* Backend */}
             <Col md={4}>
               <Card className="focus mt-2 mb-2">
+              <Roll top>        
                 <Card.Body>
                   <Card.Title className="text-center  card-title">Backend</Card.Title>
                   <hr />
@@ -52,10 +57,12 @@ const Skills = () => {
                     ))}
                   </Card.Text>
                 </Card.Body>
+              </Roll>  
               </Card>
 
               {/* Hosting Platforms */}
               <Card className="focus mt-2 mb-2 ">
+              <Roll bottom> 
                 <Card.Body>
                   <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                   <hr />
@@ -69,6 +76,7 @@ const Skills = () => {
                     ))}
                   </Card.Text>
                 </Card.Body>
+                </Roll>  
               </Card>
             </Col>
 
@@ -78,23 +86,26 @@ const Skills = () => {
               {/* Database */}
               <Card className="focus mt-2 mb-2">
                 <Card.Body>
-                  <Card.Title className="text-center  card-title">Database</Card.Title>
-                  <hr />
-                  <Card.Text className="card-text d-flex justify-content-start flex-column">
-                    {skills.databases.map((skill, index) => (
-                      <span className="p-2" key={index}>
-                        <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                          <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                        </a>
-                      </span>
-                    ))}
-                  </Card.Text>
+                <LightSpeed right>
+                    <Card.Title className="text-center  card-title">Database</Card.Title>
+                    <hr />
+                    <Card.Text className="card-text d-flex justify-content-start flex-column">
+                      {skills.databases.map((skill, index) => (
+                        <span className="p-2" key={index}>
+                          <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                            <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                          </a>
+                        </span>
+                      ))}
+                    </Card.Text>
+                  </LightSpeed>
                 </Card.Body>
               </Card>
               {/* Version Control */}
 
               <Card className="focus mt-2 mb-2">
                 <Card.Body>
+                <LightSpeed right>
                   <Card.Title className="text-center  card-title">Version Control</Card.Title>
                   <hr />
                   <Card.Text className="card-text d-flex justify-content-start flex-column">
@@ -104,23 +115,26 @@ const Skills = () => {
                       </a>
                     </span>
                   </Card.Text>
+                </LightSpeed>
                 </Card.Body>
               </Card>
 
               {/* Programming Languages */}
               <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title"> Other Programming Languages</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
+              <LightSpeed right>
+                  <Card.Title className="text-center  card-title"> Other Programming Languages</Card.Title>
+                  <hr />
+                  <Card.Text className="card-text d-flex justify-content-start flex-column">
+                    {skills.programmingLanguages.map((skill, index) => (
+                      <span className="p-2" key={index}>
+                        <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                          <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        </a>
+                      </span>
+                    ))}
+                  </Card.Text>
+              </LightSpeed>
               </Card.Body>
               </Card>
             </Col>
