@@ -20,9 +20,9 @@ import './App.css';
 const App = () => {
   return (
     <div className="App" style={{ position: "relative"}}>
-    <MyNavbar />
     <MyCarousal />
     <TitleMessage />
+    <MyNavbar />
     <Particles
         className="particles particles-box"
         params={particlesOptions}
