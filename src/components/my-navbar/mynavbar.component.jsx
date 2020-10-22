@@ -10,7 +10,7 @@ const MyNavbar = () => {
     <Navbar collapseOnSelect 
     expand="md" 
     variant="dark"
-    fixed="top"
+    fixed="top" 
     expand="md"
     className="animate-navbar nav-theme justify-content-between">
     <Navbar.Brand href="#come">

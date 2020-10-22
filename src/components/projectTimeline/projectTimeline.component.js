@@ -4,8 +4,6 @@ import {
   Events,
   UrlButton,
   ImageEvent,
-  TextEvent,
-  YouTubeEvent,
 } from '@merc/react-timeline';
 
 import Accordion from "react-bootstrap/Accordion";
