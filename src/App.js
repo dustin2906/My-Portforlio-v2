@@ -20,7 +20,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App" style={{ position: "relative"}}>
-    <MyCarousal style={{ position: "relative"}} />
+    <MyCarousal />
     <TitleMessage />
     <MyNavbar />
     <Particles

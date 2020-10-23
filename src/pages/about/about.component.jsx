@@ -19,7 +19,12 @@ const About = () => {
           <Col xs={12} sm={12} md={6}>
           <Zoom left>
             <Row className="justify-content-center mb-2 mr-3 ">
-              <Image className="justify-content-end profile img-fluid" alt="profile" src={Myprofile} thumbnail />
+              <Image 
+              className="profile" 
+              alt="profile" 
+              src={Myprofile} 
+              thumbnail 
+              fluid />
             </Row>
           </Zoom>
           </Col>
