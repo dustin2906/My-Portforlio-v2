@@ -12,22 +12,21 @@ import Experiences from './pages/experiences/experiences.component';
 import ProjectTimeline from './components/projectTimeline/projectTimeline.component';
 import Contact from './pages/contactForm/contactForm.component';
 import Footer from './components/footer/footer.component';
-//import Particles from 'react-particles-js';
-//import {particlesOptions} from './particlesOptions';
+import Particles from 'react-particles-js';
+import {particlesOptions} from './particlesOptions';
 import './App.css';
 
 
 const App = () => {
   return (
-    <div className="App" >
+    <div className="App" style={{ position: "relative"}} >
     <MyCarousal />
     <TitleMessage />
     <MyNavbar />
-    {/** <Particles
+    <Particles
         className="particles particles-box"
         params={particlesOptions}
-        style={{ position: "relative"}}
-      /> */}
+      /> 
     
     {/* About Me section*/}
     <div>

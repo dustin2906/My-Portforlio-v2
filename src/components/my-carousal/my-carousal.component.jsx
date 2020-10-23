@@ -11,10 +11,10 @@ import './my-carousal.style.css';
 const MyCarousal = () => {
   return (
     <div id="home" lg={12}>
-      <Carousel controls={false} interval={2500} pause={false}  >
+      <Carousel controls={false} interval={2500} pause={false} no-gutters >
         <Carousel.Item >
           <img
-            className="d-block w-100 custom-img no-gutters"
+            className=" w-100 custom-img"
             src={Slide1}
             alt="First slide"
           />
@@ -22,7 +22,7 @@ const MyCarousal = () => {
 
         <Carousel.Item>
           <img
-            className="d-block w-100 custom-img no-gutters"
+            className=" w-100 custom-img"
             src={Slide2}
             alt="Third slide"
           />
@@ -30,7 +30,7 @@ const MyCarousal = () => {
         
         <Carousel.Item>
           <img
-            className="d-block w-100 custom-img no-gutters"
+            className="w-100 custom-img"
             src={Slide3}
             alt="Third slide"
           />
