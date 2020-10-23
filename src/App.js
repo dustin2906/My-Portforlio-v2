@@ -27,7 +27,6 @@ const App = () => {
         className="particles particles-box"
         params={particlesOptions}
       /> 
-    
     {/* About Me section*/}
     <div>
       <Parallax
