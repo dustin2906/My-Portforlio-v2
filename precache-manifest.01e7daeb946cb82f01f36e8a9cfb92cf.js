@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a201926e4f5935ec5534e8f09763414a",
+    "revision": "ed40df58254c50af7035d0dc70435c0a",
     "url": "/My-Portforlio-v2/index.html"
   },
   {
-    "revision": "d561f29d5000757c5309",
+    "revision": "c4557cca6503fc4df37e",
+    "url": "/My-Portforlio-v2/static/css/2.fb346933.chunk.css"
+  },
+  {
+    "revision": "435108104548ff5a2772",
     "url": "/My-Portforlio-v2/static/css/main.95fb6fd3.chunk.css"
   },
   {
-    "revision": "0c17aaa2d27d8ba21569",
-    "url": "/My-Portforlio-v2/static/js/2.ad9e82eb.chunk.js"
+    "revision": "c4557cca6503fc4df37e",
+    "url": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js"
   },
   {
     "revision": "0fc61ce0ee2d491f41ee7634c63d9b90",
-    "url": "/My-Portforlio-v2/static/js/2.ad9e82eb.chunk.js.LICENSE.txt"
+    "url": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d561f29d5000757c5309",
-    "url": "/My-Portforlio-v2/static/js/main.2066919d.chunk.js"
+    "revision": "435108104548ff5a2772",
+    "url": "/My-Portforlio-v2/static/js/main.069b19e6.chunk.js"
   },
   {
     "revision": "9b2057a8bb0cad304c91",
