@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/My-Portforlio-v2/static/css/main.78c5e32a.chunk.css",
-    "main.js": "/My-Portforlio-v2/static/js/main.7219ee5d.chunk.js",
-    "main.js.map": "/My-Portforlio-v2/static/js/main.7219ee5d.chunk.js.map",
+    "main.js": "/My-Portforlio-v2/static/js/main.1a74bd95.chunk.js",
+    "main.js.map": "/My-Portforlio-v2/static/js/main.1a74bd95.chunk.js.map",
     "runtime-main.js": "/My-Portforlio-v2/static/js/runtime-main.b265631b.js",
     "runtime-main.js.map": "/My-Portforlio-v2/static/js/runtime-main.b265631b.js.map",
     "static/css/2.fb346933.chunk.css": "/My-Portforlio-v2/static/css/2.fb346933.chunk.css",
-    "static/js/2.6c6faf6d.chunk.js": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js",
-    "static/js/2.6c6faf6d.chunk.js.map": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js.map",
+    "static/js/2.b7a32af9.chunk.js": "/My-Portforlio-v2/static/js/2.b7a32af9.chunk.js",
+    "static/js/2.b7a32af9.chunk.js.map": "/My-Portforlio-v2/static/js/2.b7a32af9.chunk.js.map",
     "index.html": "/My-Portforlio-v2/index.html",
-    "precache-manifest.06d14b5ac988bd2a2dff0686b28adbbc.js": "/My-Portforlio-v2/precache-manifest.06d14b5ac988bd2a2dff0686b28adbbc.js",
+    "precache-manifest.1c4ba40c76ccce16a9ed2b9c62417e2a.js": "/My-Portforlio-v2/precache-manifest.1c4ba40c76ccce16a9ed2b9c62417e2a.js",
     "service-worker.js": "/My-Portforlio-v2/service-worker.js",
     "static/css/2.fb346933.chunk.css.map": "/My-Portforlio-v2/static/css/2.fb346933.chunk.css.map",
     "static/css/main.78c5e32a.chunk.css.map": "/My-Portforlio-v2/static/css/main.78c5e32a.chunk.css.map",
-    "static/js/2.6c6faf6d.chunk.js.LICENSE.txt": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js.LICENSE.txt",
+    "static/js/2.b7a32af9.chunk.js.LICENSE.txt": "/My-Portforlio-v2/static/js/2.b7a32af9.chunk.js.LICENSE.txt",
     "static/media/Mayvary.png": "/My-Portforlio-v2/static/media/Mayvary.933989a3.png",
     "static/media/TODOLIST.png": "/My-Portforlio-v2/static/media/TODOLIST.10746b6a.png",
     "static/media/contactForm.style.css": "/My-Portforlio-v2/static/media/background.e95d0563.webp",
@@ -47,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.b265631b.js",
     "static/css/2.fb346933.chunk.css",
-    "static/js/2.6c6faf6d.chunk.js",
+    "static/js/2.b7a32af9.chunk.js",
     "static/css/main.78c5e32a.chunk.css",
-    "static/js/main.7219ee5d.chunk.js"
+    "static/js/main.1a74bd95.chunk.js"
   ]
 }
