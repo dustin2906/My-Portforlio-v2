@@ -8,6 +8,13 @@
   padding: 10px;
 }
 
+
+@media (max-width: 600px) {
+  .profile {
+    max-width: 20%;
+  }
+  }
+
 .my-details {
   background-color: rgba(255, 255, 255, 0.747);
 }
