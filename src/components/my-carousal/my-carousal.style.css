@@ -2,3 +2,9 @@
   height: 100vh;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .custum-img {
+    position: relative;
+    }
+}

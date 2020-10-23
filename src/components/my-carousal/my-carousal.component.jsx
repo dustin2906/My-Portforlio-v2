@@ -11,7 +11,7 @@ const MyCarousal = () => {
   return (
     <div id="home">
       <Carousel controls={false} indicators interval={2500} pause={false}>
-        <Carousel.Item >
+        <Carousel.Item className="container-fluid" >
           <img
             className="d-block w-100 custom-img"
             src={Slide1}
