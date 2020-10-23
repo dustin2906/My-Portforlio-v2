@@ -11,9 +11,9 @@ const MyCarousal = () => {
   return (
     <div id="home">
       <Carousel controls={false} indicators interval={2500} pause={false}>
-        <Carousel.Item className="container-fluid" >
+        <Carousel.Item >
           <img
-            className="d-block w-100 custom-img"
+            className="d-block w-100 custom-img image-style m1"
             src={Slide1}
             alt="First slide"
           />
@@ -21,7 +21,7 @@ const MyCarousal = () => {
 
         <Carousel.Item>
           <img
-            className="d-block w-100 custom-img"
+            className="d-block w-100 custom-img image-style m1"
             src={Slide2}
             alt="Third slide"
           />
@@ -29,7 +29,7 @@ const MyCarousal = () => {
         
         <Carousel.Item>
           <img
-            className="d-block w-100 custom-img"
+            className="d-block w-100 custom-img image-style m1"
             src={Slide3}
             alt="Third slide"
           />

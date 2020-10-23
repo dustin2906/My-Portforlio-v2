@@ -16,16 +16,15 @@ const About = () => {
       <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
       <Container>
         <Row className="pt-3 pb-5 align-items-center">
-          {/* Profile picture */}
-          <Col xs={12} md={6}>
+          <Col xs={12} sm={12} md={6}>
           <Zoom left>
             <Row className="justify-content-center mb-2 mr-3 ">
-              <Image className="justify-content-end profile mb-3 mb-lg-0" alt="profile" src={Myprofile} thumbnail fluid />
+              <Image className="justify-content-end" alt="profile" src={Myprofile} thumbnail />
             </Row>
           </Zoom>
           </Col>
           {/* About ME Description */}
-          <Col xs={12} md={6}>
+          <Col xs={12} sm={12} md={6}>
           <Zoom right>
             <Row className=" align-items-start p-2 my-details rounded">
             {/** Description */}

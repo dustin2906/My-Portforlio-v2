@@ -6,6 +6,7 @@
 .profile {
   max-width: 100%;
   padding: 10px;
+  position: relative;
 }
 
 .my-details {
@@ -19,10 +20,3 @@
   color: #231d5af8;
 }
 
-
-@media (max-width: 768px) {
-.profile {
-    position: relative;
-    max-width: 30%
-    }
-}
