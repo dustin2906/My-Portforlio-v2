@@ -20,7 +20,7 @@ const About = () => {
           <Col xs={12} md={6}>
           <Zoom left>
             <Row className="justify-content-center mb-2 mr-3 ">
-              <Image className="justify-content-end profile" alt="profile" src={Myprofile} thumbnail fluid />
+              <Image className="justify-content-end profile mb-3 mb-lg-0" alt="profile" src={Myprofile} thumbnail fluid />
             </Row>
           </Zoom>
           </Col>
@@ -54,7 +54,7 @@ const About = () => {
                 </a>
               </div>
               <div>
-                <a href="https://drive.google.com/file/d/19HBjnf1zgAzZlvKjSzp_Pu7xJcqRw5Kt/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1DmrBr64kSnYaqyp5PzBo7vdj6unloC-m/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>

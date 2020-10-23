@@ -27,7 +27,6 @@ const MyNavbar = () => {
   const handleScroll  =() =>{
     setScrollPos(document.body.getBoundingClientRect().top)
     setShowNavbar(document.body.getBoundingClientRect().top > scrollPos)
-    console.log(` navDisplay > ${navDisplay} || showNavBar ${showNavbar} || scrollPos ${scrollPos}`)
 
   }
   let navDisplay = showNavbar? "active": "hidden"

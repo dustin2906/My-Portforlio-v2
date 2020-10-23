@@ -83,6 +83,7 @@ const App = () => {
           <Fade  duration={500}>
           <hr />
             <Footer />
+            
           </Fade>
 
     </div>
