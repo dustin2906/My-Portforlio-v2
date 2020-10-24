@@ -5,17 +5,19 @@
 
 @media (max-width: 600px) {
   .img-resize {
-    width: 5em
+    width: 10em;
   }
   
   .style {
     font-size: 13px;
-}
+  }
+  
 }
 
 
 .jumbo-style {
   background-image: linear-gradient(-225deg, #2cd8d5 0%, #0099cc 48%, #006080 100%);
+  
 }
 
 .body-title-style {
