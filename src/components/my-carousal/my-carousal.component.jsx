@@ -4,7 +4,6 @@ import Slide1 from '../../assets/img/carousal/first.jpg';
 import Slide2 from '../../assets/img/carousal/second.jpg';
 import Slide3 from '../../assets/img/carousal/third.jpg';
 import ScrollDown from '../ScrollDown/scrollDown.component';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './my-carousal.style.css';
 
 
