@@ -5,8 +5,8 @@
 
 @media (max-width: 600px) {
   .resize {
-    padding: 5px;
-    margin: 5px;
+    padding: 2px;
+    margin: 2px;
   }
 
   .img-resize {
