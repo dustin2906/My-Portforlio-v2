@@ -4,8 +4,13 @@
 
 
 @media (max-width: 600px) {
+  .resize {
+    padding: 5px;
+    margin: 5px;
+  }
+
   .img-resize {
-    width: 7em;
+    width: 5em;
   }
   
   .style {
