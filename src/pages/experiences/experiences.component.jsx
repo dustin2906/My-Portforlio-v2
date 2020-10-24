@@ -15,7 +15,7 @@ const Experiences = () => {
         <Container>
           <Tilt options={{ max: 25 }}>
             <Card>
-              <Card.Header as="h5" className="d-flex justify-content-center flex-wrap resize">
+              <Card.Header className="d-flex justify-content-center flex-wrap resize">
                 <Card.Img variant="top" className="img-resize" src={L_MAYVARY} alt="mayvary logo" />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
