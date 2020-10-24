@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7e7d241c9a39a47966287b8d9233315",
+    "revision": "e6918d16a24a8a7da52ba133f958194b",
     "url": "/My-Portforlio-v2/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Portforlio-v2/static/css/2.fb346933.chunk.css"
   },
   {
-    "revision": "343f628b49b59e04d209",
-    "url": "/My-Portforlio-v2/static/css/main.42302b46.chunk.css"
+    "revision": "b58eda0a94bf0bf6619b",
+    "url": "/My-Portforlio-v2/static/css/main.a883a118.chunk.css"
   },
   {
     "revision": "c4557cca6503fc4df37e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Portforlio-v2/static/js/2.6c6faf6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "343f628b49b59e04d209",
-    "url": "/My-Portforlio-v2/static/js/main.79198183.chunk.js"
+    "revision": "b58eda0a94bf0bf6619b",
+    "url": "/My-Portforlio-v2/static/js/main.b21b5d29.chunk.js"
   },
   {
     "revision": "9b2057a8bb0cad304c91",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6bab64b183f96aa47077fd3db37afd0",
     "url": "/My-Portforlio-v2/static/media/express.c6bab64b.svg"
+  },
+  {
+    "revision": "ed6761ea353858502d399603df43d60c",
+    "url": "/My-Portforlio-v2/static/media/first.ed6761ea.jpg"
   },
   {
     "revision": "1190a19ce3cc940741a60137a1e074cb",
@@ -128,16 +132,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Portforlio-v2/static/media/reviewmovie.4b50e956.png"
   },
   {
-    "revision": "8bce7aef886c3872c218e0e6ef8bdccb",
-    "url": "/My-Portforlio-v2/static/media/slide1.8bce7aef.webp"
+    "revision": "46acc721534b41c8379a8d496faa2e2f",
+    "url": "/My-Portforlio-v2/static/media/second.46acc721.jpg"
   },
   {
-    "revision": "7256f309520276be70acd97720610bc6",
-    "url": "/My-Portforlio-v2/static/media/slide2.7256f309.webp"
-  },
-  {
-    "revision": "8e5b87b60151049a8df9ec0bd30978f0",
-    "url": "/My-Portforlio-v2/static/media/slide3.8e5b87b6.webp"
+    "revision": "c448110131cbd7c0d2cc4e819c119977",
+    "url": "/My-Portforlio-v2/static/media/third.c4481101.jpg"
   },
   {
     "revision": "f4be0cc0f6dae8a6151deff12c54d6bd",
