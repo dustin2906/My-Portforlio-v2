@@ -6,11 +6,12 @@
 @media (max-width: 600px) {
   .resize {
     max-width: 100%;
+    height:3em;
   }
 
   .img-resize {
     max-width: 100%;
-    height:2em;
+    height:5em;
   }
   
   .style {
