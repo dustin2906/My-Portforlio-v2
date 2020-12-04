@@ -1,9 +1,8 @@
 .custom-img {
   height: 100vh;
   object-fit: cover;
-  max-width:100%;
+  max-width: 100%;
 }
-
 
 @media (max-width: 600px) {
   .custom-img {
@@ -11,4 +10,4 @@
     height: 100vh;
     object-fit: cover;
   }
-  }
+}

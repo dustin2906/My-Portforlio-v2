@@ -1,4 +1,3 @@
-
 import React from "react";
 import styled from "styled-components";
 import Nav from "react-bootstrap/Nav";
@@ -18,29 +17,29 @@ const MyScrollTop = styled.div`
   .turn {
     cursor: pointer;
     transform: rotate(90deg);
-    color:white
-    
+    color: white;
   }
   @keyframes MoveUpTop {
-      0%, 100% {
-        bottom: 50;
-      }
-      50% {
-        bottom:  100px;
-      }
+    0%,
+    100% {
+      bottom: 50;
     }
+    50% {
+      bottom: 100px;
+    }
+  }
 `;
 
-const handleScrollTop = () =>{
-
-};
+const handleScrollTop = () => {};
 
 const ScrollTop = () => {
   return (
     <MyScrollTop>
-      <div  onClick={handleScrollTop}>
-        <Nav.Link href="#home" className="turn" > Go Top </Nav.Link>
-
+      <div onClick={handleScrollTop}>
+        <Nav.Link href="#home" className="turn">
+          {" "}
+          Go Top{" "}
+        </Nav.Link>
       </div>
     </MyScrollTop>
   );

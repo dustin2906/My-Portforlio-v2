@@ -62,8 +62,6 @@ const About = () => {
                   </p>
                   {/** Buttom */}
                   <Col className="d-flex justify-content-center flex-wrap">
-                    
-
                     <div className="m-2">
                       <a
                         href="mailto:dustin.ngo2906@gmail.com"
