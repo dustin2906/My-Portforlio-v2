@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portforlio-v2/static/css/main.f1f4dd50.chunk.css",
+    "main.css": "/My-Portforlio-v2/static/css/main.5a5aad04.chunk.css",
     "main.js": "/My-Portforlio-v2/static/js/main.6ff7d1ec.chunk.js",
     "main.js.map": "/My-Portforlio-v2/static/js/main.6ff7d1ec.chunk.js.map",
     "runtime-main.js": "/My-Portforlio-v2/static/js/runtime-main.b265631b.js",
@@ -8,9 +8,9 @@
     "static/js/2.39e3771e.chunk.js": "/My-Portforlio-v2/static/js/2.39e3771e.chunk.js",
     "static/js/2.39e3771e.chunk.js.map": "/My-Portforlio-v2/static/js/2.39e3771e.chunk.js.map",
     "index.html": "/My-Portforlio-v2/index.html",
-    "precache-manifest.a5e4c3385857c17caa91d1e2e5f2e443.js": "/My-Portforlio-v2/precache-manifest.a5e4c3385857c17caa91d1e2e5f2e443.js",
+    "precache-manifest.d44c85daa3d1c305121e589d50428d3c.js": "/My-Portforlio-v2/precache-manifest.d44c85daa3d1c305121e589d50428d3c.js",
     "service-worker.js": "/My-Portforlio-v2/service-worker.js",
-    "static/css/main.f1f4dd50.chunk.css.map": "/My-Portforlio-v2/static/css/main.f1f4dd50.chunk.css.map",
+    "static/css/main.5a5aad04.chunk.css.map": "/My-Portforlio-v2/static/css/main.5a5aad04.chunk.css.map",
     "static/js/2.39e3771e.chunk.js.LICENSE.txt": "/My-Portforlio-v2/static/js/2.39e3771e.chunk.js.LICENSE.txt",
     "static/media/Mayvary.png": "/My-Portforlio-v2/static/media/Mayvary.933989a3.png",
     "static/media/TODOLIST.png": "/My-Portforlio-v2/static/media/TODOLIST.10746b6a.png",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.b265631b.js",
     "static/js/2.39e3771e.chunk.js",
-    "static/css/main.f1f4dd50.chunk.css",
+    "static/css/main.5a5aad04.chunk.css",
     "static/js/main.6ff7d1ec.chunk.js"
   ]
 }
