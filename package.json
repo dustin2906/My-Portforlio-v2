@@ -3,6 +3,11 @@
   "homepage": "https://dustin2906.github.io/My-Portforlio-v2/",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name":"Duc Ngo",
+    "email":"Dustin.ngo2906@gmail.com",
+    "url":"https://dustin2906.github.io/My-Portforlio-v2"
+  },
   "dependencies": {
     "@merc/react-timeline": "^0.1.42",
     "@testing-library/jest-dom": "^4.2.4",
